@@ -8,6 +8,8 @@ body {
 	font-size : 11px;
 }
 
+iframe { border:none;}
+
 .bodywrap {
 	position : relative;
 	text-align : left;
