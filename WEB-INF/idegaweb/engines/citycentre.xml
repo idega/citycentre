@@ -1,4 +1,4 @@
-<SupplierBrowserSetup  name="citycentre3" styleClass="content">
+<SupplierBrowserSetup  name="citycentre4" styleClass="content">
 	<Heading localizationKey="travel.book_online" styleClass="boxhd"/>
 	# Type of search form, in this case accommodation with results on page 80
 	<SearchForm pageID="12" localizationKey="travel.iwtt_accommodation" styleClass="fi">
@@ -126,5 +126,46 @@
 		
 		
 	</SearchForm>
+
+        # Type of search form, in this case accommodation with results on page 80
+        <SearchForm pageID="13" localizationKey="travel.iwtt_car_rental" styleClass="fi">
+                <DefaultValues>
+                        <divIDs maindiv="maindiv" inputdiv="inputdiv" separatordiv="separatordiv"/>
+                </DefaultValues>
+                #Valid SearchInputTypes are : text, dropdown, date, location
+                #Accommodation specific : typeofAccommodation, typeofRoom
+                #Tour specific : typeofTour, tourType (TRANSPORTATION or EXCURSION)
+
+                # Location dropdown
+                <SearchInput styleClass="fi">
+                        <name localizationKey = "travel.location"/>
+                        <value type="dropdown" name="sb_pc">
+                                <menuItem name="Iceland" value="101-999" selected="true"/>
+                                <menuItem name="City Center" value="101-104"/>
+                                <menuItem name="Reykjavik Area" value="101-235"/>
+                                <menuItem name="West Iceland" value="300-399"/>
+                                <menuItem name="West Fjords" value="400-499"/>
+                                <menuItem name="North Iceland" value="500-699"/>
+                                <menuItem name="East Iceland" value="700-799"/>
+                                <menuItem name="South Iceland" value="800-899"/>
+                                <menuItem name="Westman Islands" value="900-998"/>
+                        </value>
+                </SearchInput>
+
+                <SearchInput styleClass="fi">
+                        <name localizationKey = "travel.supplier_name_not_required"/>
+                        <value type="input" name="hs_suppn"/>
+                </SearchInput>
+
+                <Seperator/>
+
+                # DateInput defined for From date
+                <SearchInput styleClass="fi fi_date">
+                        <name localizationKey = "travel.from_date"/>
+                        <value type="date" name="bookingFromDate"/>
+                </SearchInput>
+
+
+        </SearchForm>
 
 </SupplierBrowserSetup>
