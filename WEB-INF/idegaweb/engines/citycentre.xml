@@ -1,0 +1,130 @@
+<SupplierBrowserSetup  name="citycentre2" styleClass="content">
+	<Heading localizationKey="travel.book_online" styleClass="boxhd"/>
+	# Type of search form, in this case accommodation with results on page 80
+	<SearchForm pageID="14" localizationKey="travel.iwtt_accommodation" styleClass="fi">
+		<DefaultValues>
+			<divIDs maindiv="bookingform" inputdiv="inputdiv" separatordiv="separatordiv"/>
+		</DefaultValues>
+		#Valid SearchInputTypes are : text, dropdown, date, location
+		#Accommodation specific : typeofAccommodation, typeofRoom
+		#Tour specific : typeofTour, tourType (TRANSPORTATION or EXCURSION)
+
+		# Location dropdown
+		<SearchInput styleClass="fi">
+			<name localizationKey = "travel.location"/>
+			<value type="dropdown" name="sb_pc">
+				<menuItem name="Iceland" value="101-999"/>
+				<menuItem name="City Center" value="101-104"/>
+				<menuItem name="Reykjavik Area" value="101-235" selected="true"/>
+				<menuItem name="West Iceland" value="300-399"/>
+				<menuItem name="West Fjords" value="400-499"/>
+				<menuItem name="North Iceland" value="500-699"/>
+				<menuItem name="East Iceland" value="700-799"/>
+				<menuItem name="South Iceland" value="800-899"/>
+				<menuItem name="Westman Islands" value="900-998"/>
+			</value>
+		</SearchInput>
+	
+		<Seperator/>
+
+		<SearchInput styleClass="fi">
+			<name localizationKey = "travel.supplier_name_not_required"/>
+			<value type="input" name="hs_suppn"/>
+		</SearchInput>
+	
+		# DateInput defined for From date
+		<SearchInput styleClass="fi fi_date">
+			<name localizationKey = "travel.check_in"/>
+			<value type="date" name="bookingFromDate"/>
+		</SearchInput>
+		
+		# DateInput defined for To date
+		<SearchInput styleClass="fi fi_date">
+			<name localizationKey = "travel.check_out"/>
+			<value type="date" name="bookingToDate" dateModifier="1"/>
+		</SearchInput>
+		
+		# DateInput defined for From date
+		<SearchInput styleClass="fi">
+			<name localizationKey = "travel.type_of_room"/>
+			<value type="typeofRoom" name="hb_rt"/>
+		</SearchInput>
+
+		<SearchInput styleClass="fi">
+			<name localizationKey = "travel.min_rating"/>
+			<value type="dropdown" name="hb_mir">
+				<menuItem name="Any" value="-1"/>
+				<menuItem name="1" value="1"/>
+				<menuItem name="2" value="2"/>
+				<menuItem name="3" value="3"/>
+				<menuItem name="4" value="4"/>
+				<menuItem name="5" value="5"/>
+			</value>
+		</SearchInput>
+		<SearchInput styleClass="fi">
+			<name localizationKey = "travel.max_rating"/>
+			<value type="dropdown" name="hb_mar">
+				<menuItem name="Any" value="-1"/>
+				<menuItem name="1" value="1"/>
+				<menuItem name="2" value="2"/>
+				<menuItem name="3" value="3"/>
+				<menuItem name="4" value="4"/>
+				<menuItem name="5" value="5"/>
+			</value>
+		</SearchInput>
+		# DateInput defined for From date
+		<SearchInput styleClass="fi">
+			<name localizationKey = "travel.type_of_hotel"/>
+			<value type="typeofAccommodation" name="hb_pat"/>
+		</SearchInput>
+
+		
+	</SearchForm>
+
+	# Type of search form, in this case accommodation with results on page 80
+	<SearchForm pageID="15" localizationKey="travel.iwtt_tour" styleClass="fi">
+		<DefaultValues>
+			<divIDs maindiv="maindiv" inputdiv="inputdiv" separatordiv="separatordiv"/>
+		</DefaultValues>
+		#Valid SearchInputTypes are : text, dropdown, date, location
+		#Accommodation specific : typeofAccommodation, typeofRoom
+		#Tour specific : typeofTour, tourType (TRANSPORTATION or EXCURSION)
+
+		# Location dropdown
+		<SearchInput styleClass="fi">
+			<name localizationKey = "travel.location"/>
+			<value type="dropdown" name="sb_pc">
+				<menuItem name="Iceland" value="101-999" selected="true"/>
+				<menuItem name="City Center" value="101-104"/>
+				<menuItem name="Reykjavik Area" value="101-235"/>
+				<menuItem name="West Iceland" value="300-399"/>
+				<menuItem name="West Fjords" value="400-499"/>
+				<menuItem name="North Iceland" value="500-699"/>
+				<menuItem name="East Iceland" value="700-799"/>
+				<menuItem name="South Iceland" value="800-899"/>
+				<menuItem name="Westman Islands" value="900-998"/>
+			</value>
+		</SearchInput>
+	
+		<SearchInput styleClass="fi">
+			<name localizationKey = "travel.supplier_name_not_required"/>
+			<value type="input" name="hs_suppn"/>
+		</SearchInput>
+	
+		<Seperator/>
+	
+		<SearchInput styleClass="fi">
+			<name localizationKey = "travel.type_of_tour"/>
+			<value type="typeofTour" name="tb_tt" tourType="EXCURSION"/>
+		</SearchInput>
+
+		# DateInput defined for From date
+		<SearchInput styleClass="fi fi_date">
+			<name localizationKey = "travel.from_date"/>
+			<value type="date" name="bookingFromDate"/>
+		</SearchInput>
+		
+		
+	</SearchForm>
+
+</SupplierBrowserSetup>

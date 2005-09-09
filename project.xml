@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <pomVersion>3</pomVersion>
+  <extend>./snapshot_eplatform_project.xml</extend>
+  <name>City Centre</name>
+  <groupId>iw-applications</groupId>
+  <artifactId>CityCentre</artifactId>
+  <currentVersion>3.0-SNAPSHOT</currentVersion>
+  <inceptionYear>2000</inceptionYear>
+  <shortDescription>Application for Reykjavik City Center Tourist Information</shortDescription>
+  <versions />
+  <branches />
+  <developers>
+    <developer>
+      <name>Grimur Jonsson</name>
+      <id>gimmi</id>
+      <email>gimmi@idega.is</email>
+      <organization>idega software</organization>
+      <roles />
+    </developer>
+  </developers>
+  <dependencies>
+    <dependency>
+      <groupId>bundles</groupId>
+      <artifactId>com.idega.block.banner</artifactId>
+      <!--version>1.0.1</version-->
+      <version>SNAPSHOT</version>
+      <type>iwbar</type>
+      <url>http://www.idega.com</url>
+    </dependency>
+    <dependency>
+      <groupId>bundles</groupId>
+      <artifactId>com.idega.block.navigation</artifactId>
+      <!--version>1.0.1</version-->
+      <version>SNAPSHOT</version>
+      <type>iwbar</type>
+      <url>http://www.idega.com</url>
+    </dependency>
+    <dependency>
+      <groupId>bundles</groupId>
+      <artifactId>com.idega.block.news</artifactId>
+      <!--version>1.0.1</version-->
+      <version>SNAPSHOT</version>
+      <type>iwbar</type>
+      <url>http://www.idega.com</url>
+    </dependency>
+    <dependency>
+      <groupId>bundles</groupId>
+      <artifactId>com.idega.block.category</artifactId>
+      <!--version>1.0.1</version-->
+      <version>SNAPSHOT</version>
+      <type>iwbar</type>
+      <url>http://www.idega.com</url>
+    </dependency>
+    <dependency>
+      <groupId>bundles</groupId>
+      <artifactId>com.idega.block.text</artifactId>
+      <!--version>1.0.1</version-->
+      <version>SNAPSHOT</version>
+      <type>iwbar</type>
+      <url>http://www.idega.com</url>
+    </dependency>
+
+    <!-- dependencies on the travel system -->
+   <dependency>
+      <groupId>bundles</groupId>
+      <artifactId>com.idega.block.creditcard</artifactId>
+      <!--version>1.0.1</version-->
+      <version>SNAPSHOT</version>
+      <type>iwbar</type>
+      <url>http://www.idega.com</url>
+    </dependency>	
+   <dependency>
+      <groupId>bundles</groupId>
+      <artifactId>com.idega.block.basket</artifactId>
+      <!--version>1.0.1</version-->
+      <version>SNAPSHOT</version>
+      <type>iwbar</type>
+      <url>http://www.idega.com</url>
+    </dependency>
+   <dependency>
+      <groupId>bundles</groupId>
+      <artifactId>com.idega.block.trade</artifactId>
+      <!--version>1.0.1</version-->
+      <version>SNAPSHOT</version>
+      <type>iwbar</type>
+      <url>http://www.idega.com</url>
+    </dependency>
+   <dependency>
+      <groupId>bundles</groupId>
+      <artifactId>is.idega.travel</artifactId>
+      <!--version>1.0.1</version-->
+      <version>SNAPSHOT</version>
+      <type>iwbar</type>
+      <url>http://www.idega.com</url>
+    </dependency>
+   <dependency>
+      <groupId>bundles</groupId>
+      <artifactId>com.firebird.database</artifactId>
+      <!--version>1.0.1</version-->
+      <version>SNAPSHOT</version>
+      <type>iwbar</type>
+      <url>http://www.idega.com</url>
+    </dependency>
+   <dependency>
+      <groupId>bundles</groupId>
+      <artifactId>com.sapdb.database</artifactId>
+      <!--version>1.0.1</version-->
+      <version>SNAPSHOT</version>
+      <type>iwbar</type>
+      <url>http://www.idega.com</url>
+    </dependency>
+    
+    
+
+  </dependencies>
+</project>

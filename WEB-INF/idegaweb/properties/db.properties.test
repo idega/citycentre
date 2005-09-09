@@ -1,0 +1,16 @@
+drivers=org.firebirdsql.jdbc.FBDriver org.gjt.mm.mysql.Driver
+
+default.url=jdbc:mysql://localhost/citycenter
+default.user=root
+default.password=
+default.initconns=5
+default.maxconns=10
+
+travel.url=jdbc:firebirdsql://localhost//idega/databases/firebird/travelnew.gdb
+travel.user=sysdba
+travel.password=masterkey
+travel.initconns=5
+travel.maxconns=10
+
+
+

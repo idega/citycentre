@@ -1,0 +1,141 @@
+.clear { clear : both; line-height : 1px; font-size : 1px; margin-top : -1px; }
+
+body {
+	padding : 0;
+	margin : 0;
+	text-align : center;
+	font-family : Helvetica, Arial;
+	font-size : 11px;
+}
+
+.bodywrap {
+	position : relative;
+	text-align : left;
+	width : 780px;
+	margin : 0 auto;
+	padding : 0 7px;
+	_width /**/: 794px;
+	display : block;
+	background : url("../img/bw-bak.gif") 0 0 repeat-y;
+}
+
+img { border : none; padding : 0; margin : 0;}
+
+p, blockquote, ul, ol, dl, table {
+  margin-top : 0px;
+  margin-bottom : .7em;
+}
+
+form { margin : 0; }
+
+h1,h2,h3,h4 {
+	margin : 0;
+	padding : 0;
+}
+
+h2 {
+	font-size : 1.27em;
+}
+.pagebody {
+	float : left;
+	width : 550px;
+	padding : 0 10px;	
+	margin-left : 210px;
+	display : inline;
+}
+
+.pageextra1 {
+	width : 200px;
+	padding-left : 10px;
+	float : left;
+	margin-left : -780px;
+}
+
+.box { 
+	clear : both;
+	margin-bottom : 20px;
+}
+
+.box .boxhd {
+	color : #fff;
+	background : url("../img/pb-boxhd.gif") 0 0 no-repeat;
+	padding : 3px 10px;
+	font-size : 1.09em;
+	_height : 1em;
+}
+
+.pageextra1 .box .boxhd {
+	background-image : url("../img/p1-boxhd.gif");
+	padding-top : 8px;
+	padding-bottom : 7px;
+}
+
+
+.box .content {
+	padding : 8px;
+	border : 1px solid #e0e0e0;
+	border-top : none;
+}
+
+.pageextra1 .box .content { background : #fbfcfd; }
+
+.mnav {
+	position : absolute;
+	top : 89px;
+	left : 7px;
+	width : 780px;
+	background :  url("../img/mnav-bak.gif") 0 0 repeat-x;
+	border-bottom : 5px solid #1d6e94;
+}
+
+.mnav .boxhd { display : none; }
+.mnav ul {
+	list-style : none;
+	padding : 0;
+	margin : 0;
+}
+
+.mnav li {
+	display : block;
+	float : left;
+}
+.mnav a {
+	display : block;
+	float : left;
+	color : #000;
+	text-decoration : none;
+	padding : 14px 15px 1px 15px;
+	font-weight : bold;
+}
+
+.mnav #tab_active { background : url("../img/tab-l.gif") 0 100% no-repeat; }
+.mnav #tab_active a {
+	color : #fff;
+	background : url("../img/tab-r.gif") 100% 100% no-repeat;
+}
+
+.imgbanner {
+	display : block;
+	margin-top : 34px;
+	_margin-top : 29px;
+	margin-bottom : 10px;
+}
+
+.bookingform .fi {
+	margin-bottom : 1em;
+}
+
+.bookingform select, .bookingform input {
+		font-size : .818em;
+}
+.bookingform label {
+	display : block;
+	padding-bottom : 4px;
+}
+.bookingform .fi_search {
+	margin-top : -32px;
+	margin-left : 75px;
+}
+
+.bookingform .fi_search label { display  : none; }
+
