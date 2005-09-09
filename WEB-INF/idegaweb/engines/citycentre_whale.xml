@@ -1,7 +1,7 @@
 <SupplierBrowserSetup  name="citycentre_whale1" styleClass="content">
 	<Heading localizationKey="travel.book_online" styleClass="boxhd"/>
 	# Type of search form, in this case accommodation with results on page 80
-	<SearchForm pageID="14" localizationKey="travel.iwtt_accommodation" styleClass="fi">
+	<SearchForm pageID="12" localizationKey="travel.iwtt_accommodation" styleClass="fi">
 		<DefaultValues>
 			<divIDs maindiv="bookingform" inputdiv="inputdiv" separatordiv="separatordiv"/>
 		</DefaultValues>
