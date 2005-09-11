@@ -127,8 +127,8 @@ h1,h2,h3,h4 {
 	font-weight : bold;
 }
 
-.mnav .current { background : url("../img/tab-l.gif") 0 100% no-repeat; }
-.mnav .current a {
+.mnav #tab_active { background : url("../img/tab-l.gif") 0 100% no-repeat; }
+.mnav #tab_active a {
 	color : #fff;
 	background : url("../img/tab-r.gif") 100% 100% no-repeat;
 }
