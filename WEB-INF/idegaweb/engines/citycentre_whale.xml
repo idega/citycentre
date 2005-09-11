@@ -25,13 +25,13 @@
 			</value>
 		</SearchInput>
 	
-		<Separator/>
-
 		<SearchInput styleClass="fi">
 			<name localizationKey = "travel.supplier_name_not_required"/>
 			<value type="input" name="hs_suppn"/>
 		</SearchInput>
 	
+		<Separator/>
+
 		# DateInput defined for From date
 		<SearchInput styleClass="fi fi_date">
 			<name localizationKey = "travel.check_in"/>
@@ -44,6 +44,8 @@
 			<value type="date" name="bookingToDate" dateModifier="1"/>
 		</SearchInput>
 		
+		<Separator/>
+
 		# DateInput defined for From date
 		<SearchInput styleClass="fi">
 			<name localizationKey = "travel.type_of_room"/>
