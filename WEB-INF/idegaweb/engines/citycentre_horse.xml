@@ -25,7 +25,7 @@
 			</value>
 		</SearchInput>
 	
-		<Seperator/>
+		<Separator/>
 
 		<SearchInput styleClass="fi">
 			<name localizationKey = "travel.supplier_name_not_required"/>
@@ -111,7 +111,7 @@
 			<value type="input" name="hs_suppn"/>
 		</SearchInput>
 	
-		<Seperator/>
+		<Separator/>
 	
 		<SearchInput styleClass="fi">
 			<name localizationKey = "travel.type_of_tour"/>
@@ -156,7 +156,7 @@
                         <value type="input" name="hs_suppn"/>
                 </SearchInput>
 
-                <Seperator/>
+                <Separator/>
 
                 # DateInput defined for From date
                 <SearchInput styleClass="fi fi_date">
