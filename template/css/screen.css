@@ -7,6 +7,10 @@ body {
 	background : url("../img/bw-bak.gif") 50% 0 repeat-y;
 }
 
+iframe {
+	border : none;
+}
+
 .bodywrap {
 	position : relative;
 	text-align : left;
