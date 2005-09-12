@@ -209,7 +209,7 @@ h1,h2,h3,h4 {
 
 .calc .fi {
 	float : left;
-	width : 50%;
+	width : 50px;
 }
 
 .calc .fi_price {
