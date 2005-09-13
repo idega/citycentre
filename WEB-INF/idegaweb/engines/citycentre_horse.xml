@@ -49,7 +49,7 @@
 		# DateInput defined for From date
 		<SearchInput styleClass="fi">
 			<name localizationKey = "travel.type_of_room"/>
-			<value type="typeofRoom" name="hb_rt"/>
+			<value type="typeofRoom" name="hb_rt" selected="2"/>
 		</SearchInput>
 
 		<SearchInput styleClass="fi">
