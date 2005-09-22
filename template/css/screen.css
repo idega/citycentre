@@ -255,3 +255,15 @@ h1,h2,h3,h4 {
 
 .iceland .content { padding-bottom : 0; background : #d9f1f6; }
 .bodywrap .iceland img { margin-bottom : 0; }
+
+.sbrowser_background_line {
+	background : #000000;
+}
+
+.sbrowser_header_background_line {
+	background : #909090;
+}
+
+.sbrowser_header {
+	font-weight : bold;
+}
