@@ -1,0 +1,269 @@
+body {
+	padding : 0;
+	margin : 0;
+	text-align : center;
+	font-family : Helvetica, Arial;
+	font-size : 11px;
+	background : url("../img/bw-bak.gif") 50% 0 repeat-y;
+}
+
+iframe {
+	border : none;
+}
+
+.bodywrap {
+	position : relative;
+	text-align : left;
+	width : 780px;
+	margin : 0 auto;
+	padding : 0 7px;
+	_width /**/: 794px;
+	display : block;
+	background : url("../img/bw-bak.gif") 0 0 repeat-y;
+}
+
+img { border : none; padding : 0; margin : 0;}
+
+p, blockquote, ul, ol, dl, table {
+  margin-top : 0px;
+  margin-bottom : .7em;
+}
+
+form { margin : 0; }
+
+h1,h2,h3,h4 {
+	font-size : 1.27em;
+	margin : 0;
+	padding : 0;
+}
+
+.pagebody {
+	margin-right : 10px;
+	margin-left : 220px;
+	width : 550px;
+	float : left;
+	display : inline;
+}
+
+.threecols .pagebody {
+  margin-right : 220px;
+	width : 340px;
+}
+
+
+.pageextra1 {
+	width : 200px;
+	margin-left : -770px;
+	float: left;
+}
+
+.pageextra2 {
+	width : 200px;
+	float : left;
+	margin-left : -210px;
+}
+
+
+.box {
+	margin-bottom : 20px;
+}
+
+.box .boxhd {
+	color : #fff;
+	background : url("../img/pb-boxhd.gif") 0 0 no-repeat;
+	padding : 3px 10px;
+	font-size : 1.09em;
+	_height : 1em;
+}
+
+.pageextra1 .box .boxhd {
+	background-image : url("../img/p1-boxhd.gif");
+	padding-top : 8px;
+	padding-bottom : 7px;
+}
+
+.pageextra2 .box .boxhd {
+	background-image : url("../img/p2-boxhd.gif");
+	text-transform : uppercase;
+}
+
+.threecols .pagebody .boxhd { background : #78c0e2; border : 1px solid  #e0e0e0; }
+.threecols .pagebody .box { _margin-top : -3px; }
+
+.box .content {
+	padding : 8px;
+	border : 1px solid #e0e0e0;
+	border-top : none;
+}
+
+.pageextra1 .box .content { background : #fbfcfd; }
+
+.mnav {
+	position : absolute;
+	top : 89px;
+	left : 7px;
+	width : 780px;
+	background :  url("../img/mnav-bak.gif") 0 0 repeat-x;
+	border-bottom : 5px solid #1d6e94;
+}
+
+.mnav .boxhd { display : none; }
+.mnav ul {
+	list-style : none;
+	padding : 0;
+	margin : 0;
+}
+
+.mnav li {
+	display : block;
+	float : left;
+}
+.mnav a {
+	display : block;
+	float : left;
+	color : #000;
+	text-decoration : none;
+	padding : 14px 13px 1px 12px;
+	font-weight : bold;
+}
+
+.mnav #tab_active { background : url("../img/tab-l.gif") 0 100% no-repeat; }
+.mnav #tab_active a {
+	color : #fff;
+	background : url("../img/tab-r.gif") 100% 100% no-repeat;
+}
+
+.imgbanner {
+	display : block;
+	margin-top : 34px;
+	_margin-top : 29px;
+	margin-bottom : 10px;
+}
+
+
+.pageextra1 .articlelist { display : none; }
+
+.pageextra1 .bookingform .content {
+	background : #fff;
+	border : none;
+	padding : 0;
+	
+}
+
+.bookingform fieldset {
+	border: 1px solid #dfdfdf;
+	margin : 0;
+	margin-bottom : 1px;
+	background : #fbfcfd;
+	padding : 8px;
+}
+.bookingform .fi {
+	margin-bottom : 1em;
+}
+
+.bookingform select, .bookingform input {
+		font-size : .8181em;
+}
+.bookingform label {
+	display : block;
+	padding-bottom : 4px;
+}
+
+.bookingform .fi_search {
+	position : absolute;
+	margin-top : -25px;
+	margin-left : 85px;
+}
+
+
+.bookingform .fi_search label { display  : none; }
+
+.bookingform .fi_btn {
+	margin : 0;
+}
+.bookingform .fi_btn .submit	{
+	color : #fff;
+	border : none;
+	background : url("../img/btn.gif");
+	padding-top : 3px;
+	padding-bottom : 3px;
+	margin-left : 140px;
+	margin-bottom : -8px;
+}
+
+.bookingform .fi_btn .reset {
+	position : absolute;
+	margin-top : 12px;
+	border : none;
+	background : none;
+	color : #4889a8;
+	font-weight : bold;
+	margin-left : 140px;
+}
+
+.calc .content { float : left; width : 181px;}
+
+.calc label {
+	display : block;
+}
+
+.calc .fi {
+	float : left;
+	width : 50px;
+}
+
+.calc .fi_price {
+	width : 50%;
+}
+
+.calc .fi_price input { width : 90px; }
+.calc select, .calc input {
+		font-size : .8181em;
+}
+
+.calc .fi_btn { width : 45%; }
+
+.calc .fi_btn input {
+	margin-top : 15px;
+	margin-bottom : 5px;
+	border : none;
+	background : none;
+	color : #4889a8;
+	font-weight : bold;
+}
+
+.bodywrap .weather .boxhd {
+	background-image : url("../img/green-boxhd.gif");
+}
+.weather .content {
+	background : #f3f3f3 url("../img/cloud.gif") 0 0 no-repeat;
+	text-align : right;
+	padding-right : 40px;
+}
+
+.weather .fi {
+	padding-top : 30px;
+	text-align : left;
+}
+.weather label { display : none; }
+
+
+.pageextra2 .box img {
+	margin : -8px -8px 8px -8px;
+	border-bottom : 1px solid #e0e0e0;	
+}
+
+.iceland .content { padding-bottom : 0; background : #d9f1f6; }
+.bodywrap .iceland img { margin-bottom : 0; }
+
+.sbrowser_background_line {
+	background : #000000;
+}
+
+.sbrowser_header_background_line {
+	background : #909090;
+}
+
+.sbrowser_header {
+	font-weight : bold;
+}
