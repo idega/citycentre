@@ -35,16 +35,16 @@
 		# DateInput defined for From date
 		<SearchInput styleClass="fi fi_date">
 			<name localizationKey = "travel.check_in"/>
-			<value type="datepicker" name="bookingFromDate"/>
+			<value type="date" name="bookingFromDate"/>
 		</SearchInput>
 		
 		# DateInput defined for To date
 		<SearchInput styleClass="fi fi_date">
-			<name localizationKey = "travel.check_out"/>
-			<value type="datepicker" name="bookingToDate" dateModifier="1"/>
+			<name localizationKey = "travel.number_of_nights"/>
+			<value type="text" name="bookingManyDays" size="5" value="1"/>
 		</SearchInput>
 		
-		# DateInput defined for From date
+
 		<SearchInput styleClass="fi">
 			<name localizationKey = "travel.type_of_room"/>
 			<value type="typeofRoom" name="hb_rt" selected="2"/>
@@ -74,7 +74,7 @@
 				<menuItem name="5" value="5"/>
 			</value>
 		</SearchInput>
-		# DateInput defined for From date
+
 		<SearchInput styleClass="fi">
 			<name localizationKey = "travel.type_of_hotel"/>
 			<value type="typeofAccommodation" name="hb_pat"/>
@@ -123,7 +123,7 @@
 		# DateInput defined for From date
 		<SearchInput styleClass="fi fi_date">
 			<name localizationKey = "travel.from_date"/>
-			<value type="datepicker" name="bookingFromDate"/>
+			<value type="date" name="bookingFromDate"/>
 		</SearchInput>
 		
 		
@@ -164,7 +164,7 @@
                 # DateInput defined for From date
                 <SearchInput styleClass="fi fi_date">
                         <name localizationKey = "travel.from_date"/>
-                        <value type="datepicker" name="bookingFromDate"/>
+                        <value type="date" name="bookingFromDate"/>
                 </SearchInput>
 
 
