@@ -166,6 +166,11 @@
                         <value type="date" name="bookingFromDate"/>
                 </SearchInput>
 
+				# DateInput defined for To date
+				<SearchInput styleClass="fi fi_date">
+				<name localizationKey = "travel.number_of_days"/>
+				<value type="text" name="bookingManyDays" size="5" value="1"/>
+				</SearchInput>
 
         </SearchForm>
 

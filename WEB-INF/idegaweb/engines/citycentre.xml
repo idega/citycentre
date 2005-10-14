@@ -1,4 +1,4 @@
-<SupplierBrowserSetup  name="citycentre4" styleClass="content">
+<SupplierBrowserSetup  name="citycentre" styleClass="content">
 	<Heading localizationKey="travel.book_online" styleClass="boxhd"/>
 	# Type of search form, in this case accommodation with results on page 80
 	<SearchForm pageID="12" localizationKey="travel.iwtt_accommodation" styleClass="fi">
@@ -167,6 +167,12 @@
                         <value type="date" name="bookingFromDate"/>
                 </SearchInput>
 
+				# DateInput defined for To date
+				<SearchInput styleClass="fi fi_date">
+				<name localizationKey = "travel.number_of_days"/>
+				<value type="text" name="bookingManyDays" size="5" value="1"/>
+				</SearchInput>
+		
 
         </SearchForm>
 
