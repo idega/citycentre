@@ -44,6 +44,10 @@
 			<value type="text" name="bookingManyDays" size="5" value="1"/>
 		</SearchInput>
 		
+		<SearchInput styleClass="fi">
+			<name localizationKey = "travel.number_of_rooms"/>
+			<value type="text" name="sb_nou" size="5" value="1"/>
+		</SearchInput>
 
 		<SearchInput styleClass="fi">
 			<name localizationKey = "travel.type_of_room"/>
@@ -173,6 +177,10 @@
 				<value type="text" name="bookingManyDays" size="5" value="1"/>
 				</SearchInput>
 		
+				<SearchInput styleClass="fi">
+					<name localizationKey = "travel.number_of_cars"/>
+					<value type="text" name="sb_nou" size="5" value="1"/>
+				</SearchInput>
 
         </SearchForm>
 
