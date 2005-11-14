@@ -272,3 +272,10 @@ h1,h2,h3,h4 {
 .sbrowser_header {
 	font-weight : bold;
 }
+.calc table td{
+	padding : 2px;
+}
+
+.calc #resultText {
+	font-weight : bold;
+}
