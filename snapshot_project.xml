@@ -38,6 +38,22 @@
     </dependency>
     <dependency>
       <groupId>bundles</groupId>
+      <artifactId>com.idega.block.weather</artifactId>
+      <!--version>1.0.1</version-->
+      <version>SNAPSHOT</version>
+      <type>iwbar</type>
+      <url>http://www.idega.com</url>
+    </dependency>
+    <dependency>
+      <groupId>bundles</groupId>
+      <artifactId>is.idega.block.weather</artifactId>
+      <!--version>1.0.1</version-->
+      <version>SNAPSHOT</version>
+      <type>iwbar</type>
+      <url>http://www.idega.com</url>
+    </dependency>
+    <dependency>
+      <groupId>bundles</groupId>
       <artifactId>com.idega.block.news</artifactId>
       <!--version>1.0.1</version-->
       <version>SNAPSHOT</version>
