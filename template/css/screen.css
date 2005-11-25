@@ -237,20 +237,9 @@ h1,h2,h3,h4 {
 	font-weight : bold;
 }
 
-.bodywrap .weather .boxhd {
+.bodywrap .weatherheader .boxhd {
 	background-image : url("../img/green-boxhd.gif");
 }
-.weather .content {
-	background : #f3f3f3 url("../img/cloud.gif") 0 0 no-repeat;
-	text-align : right;
-	padding-right : 40px;
-}
-
-.weather .fi {
-	padding-top : 30px;
-	text-align : left;
-}
-.weather label { display : none; }
 
 
 .pageextra2 .box img {
@@ -278,4 +267,44 @@ h1,h2,h3,h4 {
 
 .calc #resultText {
 	font-weight : bold;
+}
+
+div.weatherStations {
+	float:left;
+	padding-left: 8px;
+	padding-top:35px;
+        display:block;
+}
+
+div.weather .time {
+        display: none;
+}
+div.weather .clearance {
+        display: none;
+}
+div.weather .windDirection {
+	display:none
+}
+
+div.weather {
+	background : #f3f3f3;
+	text-align : right;
+	padding-right : 10px;
+	width: 187px;
+	height: 120px;
+	border: 1px #e0e0e0 solid;
+}
+
+div.image {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
+
+div.windspeed {
+	-padding: 8px;
+	font-size: 14px;
+	font-family: "Trebuchet MS";
+	font-weight: bold;
+	text-shadow: #fff 2px 2px 1px;
 }
