@@ -311,4 +311,8 @@ div.windspeed {
    
 div.weatherStation, div.temperature {
         font-size: 11px;
-}  
+}
+
+.sbrowser_link {
+        font-family: "Verdana";
+} 
