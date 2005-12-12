@@ -270,9 +270,9 @@ h1,h2,h3,h4 {
 }
 
 div.weatherStations {
-	float:left;
-	padding-left: 8px;
-	padding-top:35px;
+        float:left;
+        padding-left: 8px;
+        padding-top:39px;
         display:block;
 }
 
@@ -283,28 +283,32 @@ div.weather .clearance {
         display: none;
 }
 div.weather .windDirection {
-	display:none
+        display:none
 }
 
 div.weather {
-	background : #f3f3f3;
-	text-align : right;
-	padding-right : 10px;
-	width: 187px;
-	height: 120px;
-	border: 1px #e0e0e0 solid;
+        background : #f3f3f3;
+        text-align : right;
+        padding-right : 10px;
+        width: 187px;
+        height: 110px;
+        border: 1px #e0e0e0 solid;
 }
 
 div.image {
-	position: absolute;
-	top: 40px;
-	left: 20px;
+        position: absolute;
+        top: 36px;
+        left: 20px;
 }
 
 div.windspeed {
-	-padding: 8px;
-	font-size: 14px;
-	font-family: "Trebuchet MS";
-	font-weight: bold;
-	text-shadow: #fff 2px 2px 1px;
+        -padding: 8px;
+        font-size: 11px;
+        font-family: "Trebuchet MS";
+        font-weight: bold;
+        text-shadow: #fff 2px 2px 1px;
 }
+   
+div.weatherStation, div.temperature {
+        font-size: 11px;
+}  
