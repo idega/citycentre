@@ -2,7 +2,7 @@
 <project>
   <pomVersion>3</pomVersion>
   <extend>./snapshot_eplatform_project.xml</extend>
-  <name>City Centre</name>
+  <name>ePlatform</name>
   <groupId>iw-applications</groupId>
   <artifactId>CityCentre</artifactId>
   <currentVersion>3.0-SNAPSHOT</currentVersion>

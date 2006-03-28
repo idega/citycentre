@@ -53,8 +53,8 @@
     <dependency>
       <groupId>bundles</groupId>
       <artifactId>org.apache.myfaces</artifactId>
-      <version>1.0.9.1</version>
-      <!--version>SNAPSHOT</version-->
+      <!--<version>1.1.0</version>-->
+      <version>SNAPSHOT</version>
       <type>iwbar</type>
       <url>http://www.myfaces.org</url>
       <properties/>
