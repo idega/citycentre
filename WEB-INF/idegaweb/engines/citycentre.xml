@@ -1,6 +1,10 @@
 <SupplierBrowserSetup  name="citycentre" styleClass="content">
 	<Heading localizationKey="travel.book_online" styleClass="boxhd"/>
-	# Type of search form, in this case accommodation with results on page 80
+	<ImageUrls>
+		<SearchImageUrl value="/content/files/public/style/images/Search.jpg" />
+		<ResetImageUrl value="/content/files/public/style/images/reset.jpg" />
+	</ImageUrls>
+	
 	<SearchForm pageID="12" localizationKey="travel.iwtt_accommodation" styleClass="fi">
 		<DefaultValues>
 			<divIDs maindiv="bookingform" inputdiv="inputdiv" separatordiv="separatordiv"/>
