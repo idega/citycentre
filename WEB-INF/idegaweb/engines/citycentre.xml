@@ -58,6 +58,11 @@
 			<value type="typeofRoom" name="hb_rt" selected="2"/>
 		</SearchInput>
 
+		<SearchInput styleClass="fi">
+			<name localizationKey = "travel.type_of_hotel"/>
+			<value type="typeofAccommodation" name="hb_pat"/>
+		</SearchInput>
+
 		<Separator/>
 
 		<SearchInput styleClass="fi">
@@ -83,12 +88,6 @@
 			</value>
 		</SearchInput>
 
-		<SearchInput styleClass="fi">
-			<name localizationKey = "travel.type_of_hotel"/>
-			<value type="typeofAccommodation" name="hb_pat"/>
-		</SearchInput>
-
-		
 	</SearchForm>
 
 	# Type of search form, in this case accommodation with results on page 80
