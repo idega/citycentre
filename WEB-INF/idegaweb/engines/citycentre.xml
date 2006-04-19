@@ -124,7 +124,7 @@
 	
 		<SearchInput styleClass="fi">
 			<name localizationKey = "travel.type_of_tour"/>
-			<value type="typeofTour" name="tb_tt" tourType="EXCURSION"/>
+			<value type="typeofTour" name="tb_tt" tourType="EXCURSION" selected="3"/>
 		</SearchInput>
 
 		# DateInput defined for From date
