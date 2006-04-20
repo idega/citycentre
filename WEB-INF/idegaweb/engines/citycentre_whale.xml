@@ -29,7 +29,7 @@
 			</value>
 		</SearchInput>
 	
-		<SearchInput styleClass="fi">
+		<SearchInput styleClass="fi_supplier">
 			<name localizationKey = "travel.supplier_name_not_required"/>
 			<value type="input" name="hs_suppn"/>
 		</SearchInput>
@@ -37,18 +37,18 @@
 		<Separator/>
 
 		# DateInput defined for From date
-		<SearchInput styleClass="fi fi_date">
+		<SearchInput styleClass="fi_datestart">
 			<name localizationKey = "travel.check_in"/>
 			<value type="datepicker" name="bookingFromDate"/>
 		</SearchInput>
 		
 		# DateInput defined for To date
-		<SearchInput styleClass="fi fi_date">
+		<SearchInput styleClass="fi_nrnights">
 			<name localizationKey = "travel.number_of_nights"/>
 			<value type="text" name="bookingManyDays" size="5" value="1"/>
 		</SearchInput>
 		
-		<SearchInput styleClass="fi">
+		<SearchInput styleClass="fi_nrrooms">
 			<name localizationKey = "travel.number_of_rooms"/>
 			<value type="text" name="sb_nou" size="5" value="1"/>
 		</SearchInput>
@@ -66,9 +66,9 @@
 
 		<Separator/>
 
-		<SearchInput styleClass="fi">
+		<SearchInput styleClass="fi_min">
 			<name localizationKey = "travel.min_rating"/>
-			<value type="dropdown" name="hb_mir">
+			<value type="dropdown" name="hb_min">
 				<menuItem name="Any" value="-1"/>
 				<menuItem name="1" value="1"/>
 				<menuItem name="2" value="2"/>
@@ -77,7 +77,7 @@
 				<menuItem name="5" value="5"/>
 			</value>
 		</SearchInput>
-		<SearchInput styleClass="fi">
+		<SearchInput styleClass="fi_max">
 			<name localizationKey = "travel.max_rating"/>
 			<value type="dropdown" name="hb_mar">
 				<menuItem name="Any" value="-1"/>
