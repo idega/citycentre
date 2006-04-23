@@ -1,4 +1,4 @@
-<SupplierBrowserSetup  name="citycentre" styleClass="content">
+<SupplierBrowserSetup  name="citycentre_other" styleClass="content">
 	<Heading localizationKey="travel.book_online" styleClass="boxhd"/>
 	<ImageUrls>
 		<SearchImageUrl value="/content/files/public/style/images/Search.jpg" />
