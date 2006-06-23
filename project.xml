@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project>
   <pomVersion>3</pomVersion>
-  <extend>./snapshot_eplatform_project.xml</extend>
+  <extend>${idegaweb.application.eplatform.project.dir}/project.xml</extend>
   <name>ePlatform</name>
   <groupId>iw-applications</groupId>
   <artifactId>CityCentre</artifactId>
@@ -23,14 +23,6 @@
     <dependency>
       <groupId>bundles</groupId>
       <artifactId>com.idega.block.banner</artifactId>
-      <!--version>1.0.1</version-->
-      <version>SNAPSHOT</version>
-      <type>iwbar</type>
-      <url>http://www.idega.com</url>
-    </dependency>
-    <dependency>
-      <groupId>bundles</groupId>
-      <artifactId>com.idega.block.navigation</artifactId>
       <!--version>1.0.1</version-->
       <version>SNAPSHOT</version>
       <type>iwbar</type>
@@ -126,14 +118,5 @@
       <type>iwbar</type>
       <url>http://www.idega.com</url>
     </dependency>
-    <dependency>
-      <groupId>bundles</groupId>
-      <artifactId>com.idega.block.image</artifactId>
-      <!--version>1.0.1</version-->
-      <version>SNAPSHOT</version>
-      <type>iwbar</type>
-      <url>http://www.idega.com</url>
-    </dependency>
-
   </dependencies>
 </project>
