@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<project name="idegaWeb"
+  href="http://www.idega.com/">
+
+  <title>idegaWeb</title>
+
+  <body>
+    <menu name="Home">
+      <item name="idegaWeb eTravel"  href="/index.html" />
+    </menu>
+
+    <menu name="Modules">
+          <item name="idegaWeb Basket Block" href="http://developer.idega.com/bundles/com.idega.block.basket/"/>
+          <item name="idegaWeb CreditCard Block" href="http://developer.idega.com/bundles/com.idega.block.creditcard/"/>
+          <item name="idegaWeb Trade Block" href="http://developer.idega.com/bundles/com.idega.block.trade/"/>
+          <item name="idegaWeb Travel Block" href="http://developer.idega.com/bundles/is.idega.travel/"/>
+	</menu>
+	
+
+  </body>
+</project>
