@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <project>
   <pomVersion>3</pomVersion>
   <extend>${idegaweb.application.eplatform.project.dir}/project.xml</extend>
@@ -8,15 +9,21 @@
   <currentVersion>3.1.0</currentVersion>
   <inceptionYear>2000</inceptionYear>
   <shortDescription>Application for Reykjavik City Center Tourist Information</shortDescription>
-  <versions />
-  <branches />
+  <versions>
+    <version>
+      <id>3.1.0</id>
+      <name>3.1.0</name>
+      <tag>CITYCENTRE_3_1_0</tag>
+    </version>
+  </versions>
+  <branches/>
   <developers>
     <developer>
       <name>Grimur Jonsson</name>
       <id>gimmi</id>
       <email>gimmi@idega.is</email>
       <organization>idega software</organization>
-      <roles />
+      <roles/>
     </developer>
   </developers>
   <dependencies>
@@ -62,47 +69,48 @@
       <type>iwbar</type>
       <url>http://www.idega.com</url>
     </dependency>
-
     <!-- dependencies on the travel system -->
-   <dependency>
+
+    <dependency>
       <groupId>bundles</groupId>
       <artifactId>com.idega.block.creditcard</artifactId>
       <version>3.1.0</version>
       <type>iwbar</type>
       <url>http://www.idega.com</url>
-    </dependency>	
-   <dependency>
+    </dependency>
+    <dependency>
       <groupId>bundles</groupId>
       <artifactId>com.idega.block.basket</artifactId>
       <version>3.1.0</version>
       <type>iwbar</type>
       <url>http://www.idega.com</url>
     </dependency>
-   <dependency>
+    <dependency>
       <groupId>bundles</groupId>
       <artifactId>com.idega.block.trade</artifactId>
       <version>3.1.0</version>
       <type>iwbar</type>
       <url>http://www.idega.com</url>
     </dependency>
-   <dependency>
+    <dependency>
       <groupId>bundles</groupId>
       <artifactId>is.idega.travel</artifactId>
       <version>3.1.2</version>
       <type>iwbar</type>
       <url>http://www.idega.com</url>
     </dependency>
-   <dependency>
+    <dependency>
       <groupId>bundles</groupId>
       <artifactId>com.firebird.database</artifactId>
       <version>1.5.5</version>
       <type>iwbar</type>
       <url>http://www.idega.com</url>
     </dependency>
-   <dependency>
+    <dependency>
       <groupId>bundles</groupId>
       <artifactId>com.sapdb.database</artifactId>
       <!--version>1.0.1</version-->
+
       <version>SNAPSHOT</version>
       <type>iwbar</type>
       <url>http://www.idega.com</url>
