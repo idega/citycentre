@@ -6,7 +6,7 @@
   <name>ePlatform</name>
   <groupId>iw-applications</groupId>
   <artifactId>CityCentre</artifactId>
-  <currentVersion>3.1.4</currentVersion>
+  <currentVersion>3.1.5</currentVersion>
   <inceptionYear>2000</inceptionYear>
   <shortDescription>Application for Reykjavik City Center Tourist Information</shortDescription>
   <versions>
@@ -42,14 +42,14 @@
     <dependency>
       <groupId>bundles</groupId>
       <artifactId>com.idega.block.weather</artifactId>
-      <version>SNAPSHOT</version>
+      <version>3.1.0</version>
       <type>iwbar</type>
       <url>http://www.idega.com</url>
     </dependency>
     <dependency>
       <groupId>bundles</groupId>
       <artifactId>is.idega.block.weather</artifactId>
-      <version>SNAPSHOT</version>
+      <version>3.1.0</version>
       <type>iwbar</type>
       <url>http://www.idega.com</url>
     </dependency>
@@ -79,28 +79,28 @@
     <dependency>
       <groupId>bundles</groupId>
       <artifactId>com.idega.block.creditcard</artifactId>
-      <version>3.1.0</version>
+      <version>3.1.6</version>
       <type>iwbar</type>
       <url>http://www.idega.com</url>
     </dependency>
     <dependency>
       <groupId>bundles</groupId>
       <artifactId>com.idega.block.basket</artifactId>
-      <version>3.1.0</version>
+      <version>3.1.1</version>
       <type>iwbar</type>
       <url>http://www.idega.com</url>
     </dependency>
     <dependency>
       <groupId>bundles</groupId>
       <artifactId>com.idega.block.trade</artifactId>
-      <version>3.1.0</version>
+      <version>3.1.8</version>
       <type>iwbar</type>
       <url>http://www.idega.com</url>
     </dependency>
     <dependency>
       <groupId>bundles</groupId>
       <artifactId>is.idega.travel</artifactId>
-      <version>3.1.2</version>
+      <version>3.1.24</version>
       <type>iwbar</type>
       <url>http://www.idega.com</url>
     </dependency>
