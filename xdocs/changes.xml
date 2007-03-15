@@ -4,9 +4,15 @@
     <author email="gimmi@idega.com">Grimur Jonsson</author>
   </properties>
   <body>
+  	<release version="3.1.8" date="2007-03-15">
+		<action dev="gimmi" type="update">
+			updated to latest versions of the Travel (3.1.33) and Creditcard (3.1.8) bundles
+		</action>
+	</release>
+
   	<release version="3.1.7" date="2007-02-23">
 		<action dev="gimmi" type="update">
-			updated to latest versions of the Travel and Trade bundles
+			updated to latest versions of the Travel (3.1.32) and Trade (3.1.10) bundles
 		</action>
 	</release>
 
