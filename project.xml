@@ -67,14 +67,14 @@
     <dependency>
       <groupId>bundles</groupId>
       <artifactId>com.idega.block.weather</artifactId>
-      <version>3.1.0</version>
+      <version>3.1.1</version>
       <type>iwbar</type>
       <url>http://www.idega.com</url>
     </dependency>
     <dependency>
       <groupId>bundles</groupId>
       <artifactId>is.idega.block.weather</artifactId>
-      <version>3.1.0</version>
+      <version>3.1.1</version>
       <type>iwbar</type>
       <url>http://www.idega.com</url>
     </dependency>
