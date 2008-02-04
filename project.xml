@@ -109,7 +109,7 @@
     <dependency>
       <groupId>bundles</groupId>
       <artifactId>com.idega.block.creditcard</artifactId>
-      <version>3.1.12</version>
+      <version>3.1.14</version>
       <type>iwbar</type>
       <url>http://www.idega.com</url>
     </dependency>
@@ -123,14 +123,14 @@
     <dependency>
       <groupId>bundles</groupId>
       <artifactId>com.idega.block.trade</artifactId>
-      <version>3.1.16</version>
+      <version>3.1.17</version>
       <type>iwbar</type>
       <url>http://www.idega.com</url>
     </dependency>
     <dependency>
       <groupId>bundles</groupId>
       <artifactId>is.idega.travel</artifactId>
-      <version>3.1.42</version>
+      <version>3.1.58</version>
       <type>iwbar</type>
       <url>http://www.idega.com</url>
     </dependency>
