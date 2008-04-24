@@ -306,7 +306,7 @@ div.windspeed {
         font-size: 11px;
         font-family: "Trebuchet MS";
         font-weight: bold;
-        text-shadow: #fff 2px 2px 1px;
+        text-shadow: #fff 1px 1px 1px;
 }
    
 div.weatherStation, div.temperature {
