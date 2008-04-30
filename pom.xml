@@ -151,14 +151,14 @@
 	  <groupId>com.idega.block.addon</groupId>
 	  <artifactId>com.idega.block.banner</artifactId>
     </dependency>
-    <dependency>
+    <!-- <dependency>
       <groupId>com.idega.block.addon</groupId>
 	  <artifactId>com.idega.block.weather</artifactId>
     </dependency>
     <dependency>
       <groupId>com.idega.block.addon</groupId>
 	  <artifactId>is.idega.block.weather</artifactId>
-    </dependency>
+    </dependency> -->
     <dependency>
       <groupId>com.idega.block.addon</groupId>
 	<artifactId>com.idega.block.news</artifactId>
