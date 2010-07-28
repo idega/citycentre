@@ -92,10 +92,6 @@
 		</dependency>
 		<dependency>
 			<groupId>com.idega.block.platform</groupId>
-			<artifactId>com.idega.facelets</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>com.idega.block.platform</groupId>
 			<artifactId>com.idega.manager</artifactId>
 		</dependency>
 		<dependency>
@@ -121,10 +117,6 @@
 		<dependency>
 			<groupId>com.idega.block.platform</groupId>
 			<artifactId>org.apache.slide</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>com.idega.block.platform</groupId>
-			<artifactId>com.idega.idegaweb.widget</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>com.idega.block.platform</groupId>
